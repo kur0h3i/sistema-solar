@@ -1,0 +1,54 @@
+# Ejecutables
+solar_system
+*.exe
+*.out
+*.app
+
+# Archivos de compilación
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Directorios de CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CPackConfig.cmake
+CPackSourceConfig.cmake
+_deps/
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Archivos de depuración
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Archivos generados por CMake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Archivos específicos del sistema
+Thumbs.db
+Desktop.ini
